@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 14, b = 23;
+        if (a >= 0 && b >= 0) {
+            console.log(a - b);
+        } else if (a < 0 && b < 0) {
+            console.log(a * b);
+        } else if (a * b < 0) { /* произведение положительного и отрицательного числа всегда меньше 0, поэтому это самый быстрый способ оценить два числа*/
+            console.log(a + b);
+        }
+     
+    </script>
+</body>
+</html>
